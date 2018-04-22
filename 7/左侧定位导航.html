@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="辣手摧花">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>左侧导航</title>
+	<style type="text/css">
+		body,p,ul,a{margin:0;padding:0;}
+		ul{list-style:none;}
+		a{text-decoration:none;color:black;}
+		.content{
+			width:60px;
+			height:300px;
+			border:1px solid red;
+			margin:50px 0 0 100px;
+		}
+		.content ul li+li p{
+			background:url('images/bg.jpg') no-repeat 0px 0px/240px 360px;
+		}
+		.content ul li p{
+			width:60px;
+			height:60px;
+			font-size:12px;
+			text-align:center;
+			line-height:95px;
+		}
+		.content ul li:nth-child(1) p{
+			width:30px;
+			height:30px;
+			padding:15px;
+			font-size:15px;
+			color:white;
+			line-height:17px;
+			background-color:rgb(253,99,151);
+		}
+		.content ul li:nth-child(3) p{
+			background-position:-180px -60px;
+			color:white;
+		}
+		.content ul li:nth-child(4) p{
+			background-position:0px -120px;
+		}
+		.content ul li:nth-child(5) p{
+			background-position:0px -180px;
+		}
+		.content ul li:nth-child(2) p:hover{
+			color:rgb(253,99,151);
+			background-position:-90px 0px;
+		}
+		.content ul li:nth-child(4) p:hover{
+			color:rgb(253,99,151);
+			background-position:-90px -120px;
+		}
+		.content ul li:nth-child(5) p:hover{
+			color:rgb(253,99,151);
+			background-position:-90px -180px;
+		}
+	</style>
+</head>
+<body>
+<div class="content">
+	<ul>
+		<li>
+			<p>聚美首页</p>
+		</li>
+		<li>
+			<a href=""><p>每日必看</p></a>
+		</li>
+		<li>
+			<a href=""><p>爆款榜</p></a>
+		</li>
+		<li>
+			<a href=""><p>上新单品</p></a>
+		</li>
+		<li>
+			<a href=""><p>品牌团</p></a>
+		</li>
+	</ul>
+</div>
+</body>
+</html>

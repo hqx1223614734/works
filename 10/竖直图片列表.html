@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="辣手摧花">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>竖直图片列表</title>
+	<style type="text/css">
+		body,p,ul,img{margin:0;padding:0;}
+		ul{list-style:none}
+		a{text-decoration:none;color:inherit;}
+		.wrap{
+			width:300px;
+			height:842px;
+			margin:50px 50px 0 auto;
+		}
+		.wrap ul li{
+			position:relative;
+			width:260px;
+			height:240px;
+			padding:20px;
+			background-color:rgb(246,246,246);
+		}
+		.wrap ul li a:before{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:4px;
+			height:45px;
+			background-color:rgb(171,68,68);
+			content:'';
+		}
+		.wrap ul li + li{
+			margin-top:1px;
+		}
+		.wrap ul li img{
+			width:260px;
+			height:150px;
+		}
+		.wrap ul li p{
+			font-family:'微软雅黑';
+			color:black;
+		}
+		.wrap ul li span{
+			color:rgb(171,68,68);
+		}
+		.wrap ul li p.tittle{
+			margin-bottom:10px;
+			font-size:20px;	
+		}
+		.wrap ul li p.discription{
+			margin-top:10px;
+			font-size:16px;
+		}
+		.wrap ul li a p:hover{
+			color:rgb(171,68,68);
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<ul>
+			<li>
+				<a href="">
+					<p class="tittle"><span class="">美容</span>百科</p>
+				</a>
+				<img src="images/demo1/1.jpg" alt="">
+				<a href="">
+					<p class="discription">唐嫣杨幂“脱光”没有假睫毛眼线竟然认不出</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<p class="tittle"><span class="">美肌</span>榜样</p>
+				</a>
+				<img src="images/demo1/2.jpg" alt="">
+				<a href="">
+					<p class="discription">陈乔恩的美丽 一万点的治愈力</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<p class="tittle"><span class="">美漾</span>单品</p>
+				</a>
+				<img src="images/demo1/3.jpg" alt="">
+				<a href="">
+					<p class="discription">你的脸上有一道“彩虹” 耍的什么小技俩</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="辣手摧花">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="块级，内联，行内块元素，作业">
+	<title>666</title>
+	<style type="text/css">
+		body,ul{margin:0;padding:0}
+		ul{list-style:none;}
+		.content{
+			width:300px;
+			height:500px;
+			margin:50px auto;
+			padding:20px;
+		}
+		.navtop{
+			width:290px;
+			padding:5px;
+			background-color:#ccffcc
+		}
+		.navtop li{
+			display:inline-block;
+		}
+		.list{
+			width:300px;
+			/* background-color:green; */
+			
+		}
+		.list li{
+			margin-bottom:10px;
+			text-indent:10px;
+			font-size:14px;
+			color:#a1a1a1
+		}
+		img{
+			width:280px;
+			margin-top:10px;
+			padding:0px 10px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="" class="content"><!--内容区域-->
+		<ul class="navtop"><!--导航栏区域-->
+			<li>鲜城</li>
+			<li>美食</li>
+			<li>休闲</li>
+		</ul>
+		<!--图片区域-->
+		<img src="images/demo2/food.png" width="300px" height="" border="0" alt="">
+		<ul class="list"><!--文字区域-->
+			<li>美食|藤椒红油烫出火辣成都味 橘洲美妙空间</li>
+			<li>美食|人气卤味店的秘制羊肉火锅 涮串铁板烧</li>
+			<li>休闲|冲上云霄品世界各地美酒 吃吃喝喝</li>
+		</ul>
+	</div>
+</body>
+</html>
