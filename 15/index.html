@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="辣手摧花">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>index</title>
+	<style>
+		body{margin:0;padding:0}
+		
+		body{
+			background-color:rgb(34,34,34);
+		}
+		.wrap{
+			position:relative;
+			width:500px;
+			height:500px;
+			margin:50px auto 0;
+			overflow:hidden;
+		}
+		.pic{
+			width:400px;
+			height:400px;
+			background-image:url('01.png');
+			margin:50px auto;
+			border-radius:5px;
+		}
+		span{
+			display:block;
+			float:left;
+			width:80px;
+			height:80px;
+			background-color:rgb(34,34,34);
+			opacity:1;
+			animation:change 2s linear 1;
+			animation-fill-mode:forwards;
+		}
+		.item1{
+			animation-delay:1s;
+		}
+		.item2{
+			animation-delay:2s;
+		}
+		.item3{
+			animation-delay:3s;
+		}
+		.item4{
+			animation-delay:4s;
+		}
+		.item5{
+			animation-delay:5s;
+		}
+		.item6{
+			animation-delay:6s;
+		}
+		.item7{
+			animation-delay:7s;
+		}
+		.item8{
+			animation-delay:8s;
+		}
+		.item9{
+			animation-delay:9s;
+		}
+		i{
+			position:absolute;
+			width:5px;
+			height:5px;
+			background-color:rgb(0,255,255);
+			animation:11s linear 1;
+			animation-fill-mode:forwards;
+		}
+		.box1{
+			top:0;
+			left:0;
+			border-top-left-radius:10px;
+			border-top-right-radius:10px;
+			animation-name:l-r;
+		}
+		.box2{
+			top:0;
+			right:0;
+			border-top-right-radius:10px;
+			border-bottom-right-radius:10px;
+			animation-name:r-b;
+		}
+		.box3{
+			bottom:0;
+			left:0;
+			border-top-left-radius:10px;
+			border-bottom-left-radius:10px;
+			animation-name:b-t;
+		}
+		.box4{
+			bottom:0;
+			right:0;
+			border-bottom-left-radius:10px;
+			border-bottom-right-radius:10px;
+			animation-name:r-l;
+		}
+		@keyframes change{
+			from{opacity:1}
+			to{opacity:0}
+		}
+		@keyframes l-r{
+			from{width:0px;}
+			to{width:500px;}
+		}
+		@keyframes r-b{
+			from{height:0px;}
+			to{height:500px;}
+		}
+		@keyframes r-l{
+			from{width:0px;}
+			to{width:500px;}
+		}
+		@keyframes b-t{
+			from{height:0px;}
+			to{height:500px;}
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<i class="box1"></i>
+		<i class="box2"></i>
+		<i class="box3"></i>
+		<i class="box4"></i>
+		<div class="pic">
+			<span class="item1"></span>
+			<span class="item2"></span>
+			<span class="item3"></span>
+			<span class="item4"></span>
+			<span class="item5"></span>
+			<span class="item2"></span>
+			<span class="item3"></span>
+			<span class="item4"></span>
+			<span class="item5"></span>
+			<span class="item6"></span>
+			<span class="item3"></span>
+			<span class="item4"></span>
+			<span class="item5"></span>
+			<span class="item6"></span>
+			<span class="item7"></span>
+			<span class="item4"></span>
+			<span class="item5"></span>
+			<span class="item6"></span>
+			<span class="item7"></span>
+			<span class="item8"></span>
+			<span class="item5"></span>
+			<span class="item6"></span>
+			<span class="item7"></span>
+			<span class="item8"></span>
+			<span class="item9"></span>
+		</div>
+	</div>
+</body>
+</html>

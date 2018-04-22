@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="辣手摧花">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>简历</title>
+	<style>
+		body,ul,p,h3{margin:0;padding:0;}
+		ul{list-style:none;}
+		a{text-decoration:none;color:inherit;}
+		body{background-color:rgb(221,221,221)}
+		.clearfix:after{
+			content:'';
+			display:block;
+			clear:both;
+		}
+		.f-l{
+			float:left;
+		}
+		.whiteFont{
+			color:white;
+		}
+		.blackBg{
+			background-color:black;
+		}
+		.yellowFont{
+			color:rgb(255,208,65);
+		}
+		.yellowBg{
+			background-color:rgb(255,208,65);
+		}
+		.main{
+			width:850px;
+			height:640px;
+			margin:50px auto 0;
+		}
+		.side{
+			width:240px;
+			height:100%;
+			margin-right:10px;
+		}
+		.pic{
+			width:100%;
+			height:330px;
+			text-align:center;
+			overflow:hidden;
+			font-family:'Microsoft YaHei';
+		}
+		.name{
+			margin-top:20px;
+			font-size:32px;
+		}
+		.pic img{
+			width:160px;
+			height:160px;
+			border:3px solid rgb(255,208,65);
+			margin-top:30px;
+			border-radius:50%;
+		}
+		.side-link{
+			width:100%;
+			height:300px;
+			font-family:'微软雅黑';
+		}
+		.side-link p:nth-child(n+2){
+			border-bottom:1px solid;
+		}
+		.link{
+			width:230px;
+			height:40px;
+			padding-right:10px;
+			text-align:right;
+			line-height:40px;
+			text-indent:5px;
+		}
+		.selected{
+			margin-top:5px;
+		}
+		header{
+			width:600px;
+			height:100px;
+			font-size:32px;
+			text-indent:30px;
+			line-height:125px;
+		}
+		.info{
+			width:600px;
+			height:540px;
+			background-color:white;
+			font-family:'Microsoft YaHei';
+		}
+		.info h3{
+			width:100%;
+			height:70px;
+			line-height:70px;
+			text-indent:20px;
+			font-size:25px;
+		}
+		.info p{
+			width:580px;
+			padding-left:20px;
+			color:rgb(181,181,181);
+		}
+		.notes{
+			text-indent:40px;
+			font-size:14px;
+			line-height:30px;
+		}
+		h3.myInfo{
+			text-indent:40px;
+			margin-top:40px;
+		}
+		ul.myInfo{
+			margin:20px 0 0 40px;
+		}
+		ul.myInfo li{
+			margin-bottom:10px;
+		}
+		ul.myInfo li div{
+			width:100px;
+			height:35px;
+			text-align:center;
+			line-height:35px;
+			color:#888;
+			font-size:13px;
+		}
+		ul.myInfo li meter{
+			width:260px;
+			height:35px;
+			margin-left:10px;
+		}
+	</style>
+</head>
+<body>
+	<article class="main clearfix">
+		<aside class="side f-l">
+			<section class="pic blackBg">
+				<h3 class="whiteFont name">Wendy<span class="yellowFont">Alex</span></h3>
+				<h3 class="whiteFont">前端工程师</h3>
+				<img src="images/demo1/1.png" alt="">
+			</section>
+			<section class="side-link yellowBg">
+				<p class="link selected blackBg yellowFont"><a href="">HOME | 家庭地址</a></p>
+				<p class="link"><a href="">RESUME | 个人简介</a></p>
+				<p class="link"><a href="">CONTACT | 联系方式</a></p>
+				<p class="link"><a href="">PORTFOLIO | 工作经验</a></p>
+			</section>
+		</aside>
+		<header class="f-l blackBg"><span class="yellowFont">Welcome To</span><span class="whiteFont"> My Profile</span></header>
+		<section class="info f-l">
+			<h3>Hello!I'm <span class="yellowBg">Wendy Alex</span></h3>
+			<p>Web developer</p>
+			<p class="notes">主攻前端和NodeJS开发，6年+前端开发经验，呆过大公司和小团队，从0组建20人前端NodeJS混合开发团队，带领团队利用最新技术解决业务快速发展过程中的各种业务场景问题。熟悉客户端开发，有多个上架APP，有java开发经验</p>
+			<h3 class="myInfo">My Info</h3>
+			<ul class="myInfo">
+				<li class="clearfix">
+					<div class="blackBg f-l">html+css</div>
+					<meter class="f-l" max="100" min="0" value="80" high="85" optimum="90" low="60"></meter>
+				</li>
+				<li class="clearfix">
+					<div class="blackBg f-l">javascript</div>
+					<meter class="f-l" max="100" min="0" value="70" low="60" high="90" optimum="95"></meter>
+				</li>
+				<li class="clearfix">
+					<div class="blackBg f-l">html5+css3</div>
+					<meter class="f-l" max="100" min="0" value="60"></meter>
+				</li>
+				<li class="clearfix">
+					<div class="blackBg f-l">character</div>
+					<meter class="f-l" max="100" min="0" value="90" high="95" optimum="98" low="80"></meter>
+				</li>
+			</ul>
+		</section>
+	</article>
+</body>
+</html>
